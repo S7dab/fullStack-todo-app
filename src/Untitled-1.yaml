@@ -1,0 +1,26 @@
+
+
+
+todo api list
+
+
+1. read all todo api 
+   api url : http://localhost:3000/todo
+   method : GET
+
+
+   2. delete todo api 
+   api url : http://localhost:3000/todo/:id
+   method : DELETE 
+
+
+   3. update todo api 
+   api url : http://localhost:3000/todo/:id
+   body : title , description
+   method : PUT
+
+
+   4. Create todo api 
+   api url : http://localhost:3000/todo
+   body : title , description
+   method : POST
