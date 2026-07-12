@@ -15,7 +15,7 @@ dns.setServers(["1.1.1.1","8.8.8.8"])
 const app = express();
 // configure
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"fullstack-todo-app1.netlify.app",
   methods:["GET","POST","PUT","PATCH","DELETE"]
 }))
 app.use(express.json());
